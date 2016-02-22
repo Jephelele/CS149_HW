@@ -1,4 +1,3 @@
-
 public class Process implements Comparable,Cloneable
 {
 	private char name;

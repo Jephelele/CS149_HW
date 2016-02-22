@@ -68,10 +68,10 @@ public abstract class Statistics {
 	     */
 	    public void printAvgStats()
 	    {
-	        System.out.format("\tTurnaround time: %f\n", stats.getAvgTurnaroundTime());
-	        System.out.format("\tWaiting time: %f\n", stats.getAvgWaitingTime());
-	        System.out.format("\tResponse time: %f\n", stats.getAvgResponseTime());
-	        System.out.format("\tThroughput per 100 quanta: %f\n", stats.getAvgThroughput());
+	        System.out.format("Turnaround Time: %f\n", stats.getAvgTurnaroundTime());
+	        System.out.format("Waiting Time: %f\n", stats.getAvgWaitingTime());
+	        System.out.format("Response Time: %f\n", stats.getAvgResponseTime());
+	        System.out.format("Throughput: %f\n", stats.getAvgThroughput());
 	    }
 	    
 	    /**
